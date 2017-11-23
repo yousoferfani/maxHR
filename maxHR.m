@@ -69,6 +69,7 @@ xlabel('Time, sec'); ylabel('HR'); title('exampleRest');
 hr = csvread('exampleRun.csv');
 figure; plot(hr(:, 1), hr(:, 2), 'r+'); 
 xlabel('Time, sec'); ylabel('HR'); title('exampleRun');
+
 % figure
 % hist(hr(:,2))
 % During the first 80 seconds, his HR climbs to around 120. This climb
@@ -123,7 +124,7 @@ for i = 1 : numel(filenames)
     % To view:
     figure; plot(hr(:, 1), hr(:, 2), 'r+');
     xlabel('Time, sec'); ylabel('HR'); title(filenames{i});
-    
+
     % Compute your maximum HR here 
     % for example, a very bad solution could be:
     maxHR = prctile(hr(:, 2), 99) + 10;
@@ -156,7 +157,7 @@ for i = 1 : numel(filenames)
     axis([min(hr(:,1)),max(hr(:,1)), min(hr(:,2)),max(hr(:,2))+10])
     fprintf('Maximum HR for %s is %.1f\n\n', filenames{i}, maxHR);
     
-    
+
     % sort all the values for the maxHr
     [estim_mxHr, Indx] = sort (estim_mxHr,'descend');
     cnt =1;

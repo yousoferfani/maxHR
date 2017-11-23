@@ -31,3 +31,51 @@ I will play more with the parameters I introduced to find  the best estimate of 
 
 
 
+--------- A sample results
+npolyfit =  50
+Th_variance =  5
+
+Maximum HR for user1Run1.csv is 176.7
+
+my estimatred  Maximum HR for user1Run1.csv is 172.5
+
+Maximum HR  measured at index: 3591.0
+
+
+------------------------------------
+my estimatred  Maximum HR for user1Run2.csv is 163.5
+
+Maximum HR  measured at index: 1575.0
+
+------------------------------------
+Maximum HR for user1Run3.csv is 173.0
+
+my estimatred  Maximum HR for user1Run3.csv is 168.7
+
+Maximum HR  measured at index: 4099.0
+
+-------------------------------------
+
+Maximum HR for user2Run1.csv is 140.4
+
+my estimatred  Maximum HR for user2Run1.csv is 137.0
+
+Maximum HR  measured at index: 4484.0
+
+------------------------------------
+
+Maximum HR for user2Run2.csv is 154.2
+
+my estimatred  Maximum HR for user2Run2.csv is 150.2
+
+Maximum HR  measured at index: 6364.0
+
+------------------------------------
+Maximum HR for user2Run3.csv is 160.0
+
+my estimatred  Maximum HR for user2Run3.csv is 159.3
+
+Maximum HR  measured at index: 8668.0
+
+
+
